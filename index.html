@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VPCF - Virtual Piano Chord Finder</title>
+    <link rel="stylesheet" type="text/css" href="css/vpcf.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.vpcf.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body>
+<div class="chords_generation">
+    <div class="chord">A</div>
+    <div class="configurations">
+        <div>
+            <input class="chords_configuration" type="checkbox" id="with_major_chords" name="with_major_chords" checked>
+            <label for="with_major_chords">Major chords</label>
+        </div>
+        <div>
+            <input class="chords_configuration" type="checkbox" id="with_minor_chords" name="with_minor_chords" checked>
+            <label for="with_minor_chords">Minor chords</label>
+        </div>
+        <div>
+            <input class="chords_configuration" type="checkbox" id="with_b_chords">
+            <label for="with_b_chords">b chords</label>
+        </div>
+        <div>
+            <input class="chords_configuration" type="checkbox" id="with_sharp_chords">
+            <label for="with_sharp_chords"># chords</label>
+        </div>
+        <div>
+            <label for="time_interval">Time between each chords : </label>
+            <input type="number" step="1" min="0" id="time_interval" value="5">
+        </div>
+    </div>
+</div>
+<div class="chords_action">
+    <button id="start_btn">Start</button>
+    <button id="stop_btn">Stop</button>
+</div>
+<div id="piano"></div>
+</body>
+
+</html> 

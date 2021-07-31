@@ -1,0 +1,32 @@
+#vpcf_controls {
+    display: none;
+}
+
+.chords_generation {
+    text-align: center  ;
+    width: 30em;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+}
+
+.chords_action {
+    height: 5vh;
+    width: 30vw;
+    text-align: center  ;
+    margin: auto;
+}
+
+.configurations {
+    text-align: left;
+    margin: auto;
+}
+
+.chord {
+    font-size: 8em;
+    margin: auto;
+}
+
+#time_interval {
+    width:2em
+}
